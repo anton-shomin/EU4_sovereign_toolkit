@@ -1,0 +1,121 @@
+country_event = {
+    id = cheats.1
+    title = cheats.1.t
+    desc = cheats.1.d
+
+    is_triggered_only = yes
+
+    option = {
+        name = cheats.1.a
+        add_country_modifier = {
+            name = mighty_economy
+            duration = -1
+        }
+    }
+    option = {
+        name = cheats.1.b
+        add_country_modifier = {
+            name = mighty_economy
+            duration = 1000
+        }
+    }
+    option = {
+        name = cheats.1.c
+        remove_country_modifier = mighty_economy
+    }
+}
+
+country_event = {
+    id = cheats.2
+    title = cheats.2.t
+    desc = cheats.2.d
+
+    is_triggered_only = yes
+
+    option = {
+        name = cheats.2.a
+        add_country_modifier = {
+            name = mighty_army
+            duration = -1
+        }
+    }
+    option = {
+        name = cheats.2.b
+        remove_country_modifier = mighty_army
+    }
+    option = {
+        name = cheats.2.c
+        add_country_modifier = {
+            name = mighty_army
+            duration = 1000
+        }
+    }
+}
+
+country_event = {
+    id = cheats.3
+    title = cheats.3.t
+    desc = cheats.3.d
+    picture = LIBERUM_VETO_eventPicture
+
+    option = {
+        name = cheats.3.a
+        add_war_exhaustion = -1
+        random_owned_province = {
+            limit = {
+                controlled_by = ROOT
+                has_siege = no
+            }
+            cavalry = ROOT
+            cavalry = ROOT
+            cavalry = ROOT
+            cavalry = ROOT
+            cavalry = ROOT
+            cavalry = ROOT
+            cavalry = ROOT
+            cavalry = ROOT
+            cavalry = ROOT
+            cavalry = ROOT
+            infantry = ROOT
+            infantry = ROOT
+            infantry = ROOT
+            infantry = ROOT
+            infantry = ROOT
+            infantry = ROOT
+            infantry = ROOT
+            infantry = ROOT
+            infantry = ROOT
+            infantry = ROOT
+            infantry = ROOT
+            infantry = ROOT
+            infantry = ROOT
+            infantry = ROOT
+            infantry = ROOT
+            infantry = ROOT
+            infantry = ROOT
+            infantry = ROOT
+            infantry = ROOT
+            infantry = ROOT
+            infantry = ROOT
+        }
+    }
+}
+
+country_event = {
+    id = cheats.4
+    title = cheats.4.t
+    desc = cheats.4.d
+    picture = LIBERUM_VETO_eventPicture
+
+    option = {
+        name = cheats.4.a
+        add_war_exhaustion = -1
+        random_owned_province = {
+            limit = {
+                controlled_by = ROOT
+                has_siege = no
+            }
+            #add_goods ...
+        }
+    }
+}

@@ -1,0 +1,20 @@
+l_english:
+  cheats.1.t:0 "Global Economy Modifier"
+  cheats.1.d:0 "Great modification of economy for 1000 days"
+  cheats.1.a:0 "Global Economy On"
+  cheats.1.b:0 "Global Economy for 3 Years"
+  cheats.1.c:0 "Global Economy Off"
+
+  cheats.2.t:0 "Global Army and Fleet Modifier"
+  cheats.2.d:0 "Great modification of army and fleet for 1000 days"
+  cheats.2.a:0 "Mighty Army On"
+  cheats.2.b:0 "Global Army Off"
+  cheats.2.c:0 "Mighty Army for 3 Years"
+
+  cheats.3.t:0 "EVTNAME6502"
+  cheats.3.d:0 "EVTDESC6502"
+  cheats.3.a:0 "EVTOPTA6502"
+
+  cheats.4.t:0 "EVTNAME6502"
+  cheats.4.d:0 "EVTDESC6502"
+  cheats.4.a:0 "EVTOPTA6502"
